@@ -7,7 +7,7 @@ import Questions from '../components/Questions'
 import QuestionModel from '../model/questao'
 import {useRouter} from 'next/router'
 
-const BASE_URL = 'https://answerquestionss-git-main-chrzddd.vercel.app/api'
+const BASE_URL = 'https://answerquestionss-okgt45ocp-chrzddd.vercel.app/api'
 export default function Home() {
   const router = useRouter()
   const [idsDasQuestoes, setIdsDasQuestoes] = useState<number[]>([])
